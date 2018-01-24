@@ -124,7 +124,7 @@ $(function() {
          beforeEach(function(done) {
            loadFeed(0, function() {
              origFeed = $('.feed').html();
-             console.log(origFeed)
+             console.log(origFeed);
              loadFeed(1, function() {
                newFeed = $('.feed').html();
                done();
